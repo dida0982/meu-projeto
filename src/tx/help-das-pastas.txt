@@ -1,0 +1,25 @@
+meu-portfolio-blog/
+│
+├── docs/                  # Documentação do projeto (planejamento, requisitos, ideias)
+│
+├── src/                   # Código-fonte principal
+│   ├── assets/            # Imagens, ícones, fontes
+│   ├── components/        # Componentes reutilizáveis (header, footer, cards)
+│   ├── pages/             # Páginas do site
+│   │   ├── index.html     # Página inicial (portfólio)
+│   │   ├── blog.html      # Página principal do blog
+│   │   └── livros/        # Subpasta para cada livro
+│   │       ├── livro01.html
+│   │       ├── livro02.html
+│   │       ├── ...
+│   │       └── livro12.html
+│   ├── styles/            # CSS (global.css, temas, responsividade)
+│   ├── scripts/           # JS (interatividade, navegação, animações)
+│   └── utils/             # Funções auxiliares
+│
+├── tests/                 # Testes (se quiser automatizar qualidade do código)
+├── config/                # Configurações (lint, ambiente, etc.)
+├── dist/                  # Versão final para produção
+│
+├── README.md              # Guia inicial do projeto
+└── package.json           # Dependências e scripts (se usar Node.js)
