@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+  background-color:oklch(27.9% 0.041 260.031);
+}
+
+.titulo{
+  text-align: center;
+  padding: 10px;
+}
+
+.container{
+  background-color:#1e293b;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+
+  flex-wrap: wrap;
+}
+
+.item{
+  background-color: #7e22ce;
+  height: 25px;
+  min-width: 80px;
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  font-size: 22px;
+
+  flex-grow: 1;
+  z-index: 1;
+}
+
+
+
+.item::before{
+  content: "";
+  position: absolute;
+  inset: -2px; /* <<< ISSO cria a borda */
+  background: conic-gradient(
+    from var(--deg),
+    #00c3ff,
+    #4d0199,
+    #6300c6,
+    #009dcd,
+    #00c3ff
+    );
+    border-radius: inherit;
+    z-index: -1;
+    animation: autoRotate 2s linear infinite;
+  }
+
+  @property --deg{
+    syntax: '<angle>';
+    inherits: true;
+    initial-value: 0deg;
+  }
+
+  @keyframes autoRotate {
+    to{
+      --deg: 360deg;
+    }
+  }
+
