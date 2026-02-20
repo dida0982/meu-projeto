@@ -3,4 +3,5 @@
 nome = input("Seu nome:")
 sexo = input("Seu sexo:")
 
-print("Seu", nome, "e seu", sexo, " ")
+print("Seu é:", nome, "e seu sexo é ", sexo, ".")
+
