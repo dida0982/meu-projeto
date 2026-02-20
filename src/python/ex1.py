@@ -7,4 +7,6 @@ TD = float(input("Total de desconto"))
 
 HT * VH = SB
 PD/100 = TD
+SL = SL - SB
 
+print("Salário bruto: , ", SB, "Salário Líquido: ", SL)
