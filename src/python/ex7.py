@@ -1,13 +1,12 @@
-#12km por litro
-#quanto de combustível gasta em uma viagem ?
-#tempo gasto
+#quanto de combustível se gastou na viagem ?
+
 velocidade = float(input("Qual a velocidade do carro?"))
-tempo = float(input("Quanto tempo duro a viagem?"))
+tempo = float(input("Quanto tempo durou a viagem?"))
 
 distancia = tempo * velocidade
 litros_usados = distancia/12
 
-print("valocidade média:", )
-print("tempo gasto na viagem:")
-print("distancia percorrida:")
-print("quantidade de litros utilizada na viagem:")
+print("valocidade média:", velocidade, )
+print("tempo gasto na viagem:", tempo)
+print("distancia percorrida:", distancia)
+print("quantidade de litros utilizada na viagem:", litros_usados)
