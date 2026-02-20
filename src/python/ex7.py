@@ -7,4 +7,7 @@ tempo = float(input("Quanto tempo duro a viagem?"))
 distancia = tempo * velocidade
 litros_usados = distancia/12
 
-print()
+print("valocidade média:", )
+print("tempo gasto na viagem:")
+print("distancia percorrida:")
+print("quantidade de litros utilizada na viagem:")
