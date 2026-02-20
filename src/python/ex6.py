@@ -1,6 +1,8 @@
 print("O código vai calcular o volume de uma lata de óleo para você")
+
 altura = float(input("Qual a altura da lata de óleo? "))
 raio = float(input("Qual é o ráio da lata de óleo? "))
-volume = 3.14159*raio**2*altura
 
-print("O volume da lata de óleo é:", volume,)
+volume = 3.14159 * raio**2 *altura
+
+print(f"O volume da lata de óleo é: {volume:.2f}")
