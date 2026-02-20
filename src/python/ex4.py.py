@@ -2,4 +2,4 @@ c = float(input("Digite uma temperatura em graus Celsius, que o código vai conv
 
 f = c*9/5+32
 
-print("Celsius:", c," | ", " Fahrenhait: ", f)
+print("Graus Celsius:", c," | ", "Graus Fahrenhait: ", f)
