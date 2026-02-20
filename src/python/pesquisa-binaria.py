@@ -7,4 +7,5 @@ while n > 1:
     contador += 1 # acrescenta o número de etapas / Ele só registra que uma divisão aconteceu.
 
 print(f"Número máximo de etapas na pesquisa binária: {contador}")
-#f → permite colocar variáveis dentro da string / {variavel} → mostra o valor da variável
+#f → permite colocar variáveis dentro da string / {variavel} → mostra o valor da variávelgit remote remove origin
+
