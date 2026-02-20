@@ -6,7 +6,7 @@ tempo = float(input("Quanto tempo durou a viagem?"))
 distancia = tempo * velocidade
 litros_usados = distancia/12
 
-print("valocidade média:", velocidade, )
-print("tempo gasto na viagem:", tempo)
-print("distancia percorrida:", distancia)
-print("quantidade de litros utilizada na viagem:", litros_usados)
+print(f"valocidade média: {velocidade:.2f} ")
+print(f"tempo gasto na viagem: {tempo:.2f}")
+print(f"distancia percorrida: {distancia:.2f}")
+print(f"quantidade de litros utilizada na viagem: {litros_usados:.2f}")
