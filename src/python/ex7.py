@@ -4,7 +4,7 @@ velocidade = float(input("Qual a velocidade do carro?"))
 tempo = float(input("Quanto tempo durou a viagem?"))
 
 distancia = tempo * velocidade
-litros_usados = distancia/12
+litros_usados = distancia/10
 
 print(f"valocidade média: {velocidade:.2f} ")
 print(f"tempo gasto na viagem: {tempo:.2f}")
