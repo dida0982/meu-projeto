@@ -3,6 +3,8 @@
 import string
 
 
-nome = string(input("Qual seu nome?"))
-idade = int(input("Qual sua idade?"))
-altura= float(input("Qual sua altura?"))
+nome = string(input("What is your name?"))
+idade = int(input("How old are you?"))
+altura= float(input("How tall are you?"))
+
+print(f"Seu nome é {nome} vc tem {idade} anos e {altura} de altura")
