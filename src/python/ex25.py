@@ -3,3 +3,9 @@ print("este código vai converter pés para metros.")
 #30.48/100=3.28083989501312
 #1 pé tem 3.28083989501312 m
 print("")
+
+p = float(input("Quantos pés?"))
+
+m = p * 3.28083989501312
+
+print(f"{p} pés da {m} metros.")
