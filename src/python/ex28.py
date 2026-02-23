@@ -3,4 +3,4 @@ b = int(input("Enter numeric value b: "))
 
 r= (a/b)**2
 
-print(f"O quadrado da divisao do valor {a} em rolação ao valor {b} da {r:.2f}")
+print(f"O quadrado da divisao de {a} sobre {b} é igual a: {r:.2f}")
