@@ -6,4 +6,4 @@ x = int(input("Enter a numeric value: "))
 z=x+1
 y=x-1
 
-print(f"antes de {x} é {y} e depois de {x} é {z}")
+print(f"Before {x} is {y} after {x} is {z}")
