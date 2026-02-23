@@ -1,8 +1,5 @@
 # Operações com multiplas matrizes
 
-import string
-
-
 name = input("What is your name? ")
 age = int(input("How age are you? "))
 height= float(input("How height are you? "))
