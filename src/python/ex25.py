@@ -1,11 +1,7 @@
-print("este código vai converter pés para metros.")
-#1 pé tem 30,48cm
-#30.48/100=3.28083989501312
-#1 pé tem 3.28083989501312 m
-print("")
+# 1 pé = 0.3048 metros
 
-p = float(input("Quantos pés?"))
+p = float(input("Quantos pés? "))
 
-m = p * 3.28083989501312
+m = p * 0.3048
 
-print(f"{p} pés da {m} metros.")
+print(f"{p} pés equivalem a {m:.2f} metros.")
