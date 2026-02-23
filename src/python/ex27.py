@@ -1,4 +1,9 @@
-n = int(input("Enter a numeric value: "))
-# Apresente um valor numérico e apresente seu numero anterior e posterior.
-n=x+1
-n=x-1
+print("Este código vai mostrar o número anterior e posterior do número que vc escolher.")
+print("")
+
+x = int(input("Enter a numeric value: "))
+
+z=x+1
+y=x-1
+
+print(f"antes de {x} é {y} e depois de {x} é {z}")
