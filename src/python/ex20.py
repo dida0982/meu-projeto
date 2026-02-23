@@ -7,4 +7,4 @@ pr = float(input("Qual o percentual do reajuste? (Ex: se for 10 porcento coloca 
 
 ns = sm*(pr)
 
-print(f"O novo salário com o 10% de ajuste: {ns:.2f}R$")
+print(f"O novo salário com o 10% de ajuste: R${ns:.2f}")
