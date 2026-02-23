@@ -1,4 +1,4 @@
-print("Este código vai mostrar o número anterior e posterior do número que vc escolher.")
+print("The code will show the number before and after the number you choose")
 print("")
 
 x = int(input("Enter a numeric value: "))
