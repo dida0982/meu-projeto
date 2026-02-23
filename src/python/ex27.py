@@ -1,1 +1,2 @@
-int(input("Digite um valor numérico:"))
+int(input("Enter a numeric value: "))
+
