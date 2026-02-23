@@ -1,9 +1,13 @@
-print("Esse código vai calculator a raiz dos números")
+print("Esse código vai calcular a raiz dos números")
 print("")
 
+# valor que será calculado
 v = float(input("Digite um valor: "))
-r = float(input("Digite a raiz desse valor(Ex:Se for raiz de 2 digite 1/2, de 3 digite 1/3, de 4 digite 1/4 etc... ) : "))
 
-x=v**(r)
+# qual raiz deseja (2 para quadrada, 3 para cúbica, 4 para quarta, etc.)
+n = int(input("Digite qual raiz deseja (Ex: 2 para quadrada, 3 para cúbica, 4 para quarta): "))
 
-print(f"A rais({r}) de {v} é  {x}")
+# cálculo da raiz n-ésima
+x = v ** (1/n)
+
+print(f"A raiz {n}-ésima de {v} é {x:.4f}")
