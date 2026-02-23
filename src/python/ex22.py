@@ -1,6 +1,6 @@
 print("Este código vai fazer o cálculo da velocidade de um motoqueiro. ")
 
-distancia = float(input("Quantos km o motoqueiro percorreu? "))
+distancia = float(input("Quantos km ele percorreu? "))
 tempo = float(input("Quantos minutos ele demorou?"))
 
 velocidade = (distancia*1000)/(tempo*60)
