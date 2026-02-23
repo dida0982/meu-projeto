@@ -1,2 +1,3 @@
-print("This code will calculate the ")
+print("este código vai converter pés para metros.")
+#1 pé tem 30,48cm
 print("")
