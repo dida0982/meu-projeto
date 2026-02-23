@@ -10,4 +10,4 @@ n = int(input("Digite qual raiz deseja (Ex: 2 para quadrada, 3 para cúbica, 4 p
 # cálculo da raiz n-ésima
 x = v ** (1/n)
 
-print(f"A raiz {n}-ésima de {v} é {x:.4f}")
+print(f"A raiz {n}-ésima de {v} é {x:.2f}")
