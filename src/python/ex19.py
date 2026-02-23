@@ -6,4 +6,5 @@ d = int(input("Digite o valor de d: "))
 p = a+c
 s =b+d
 
-print(f"O resultado do : {r:.2f}")
+print(f"Resultado do p: {p:.2f} (a+c)")
+print(f"Resultado do s: {s:.2f} (b+d)")
