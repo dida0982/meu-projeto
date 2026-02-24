@@ -9,9 +9,9 @@ for i in range(3):
     idade = int(input(f"Digite a idade {i+1}: "))
     altura = float(input(f"Digite a altura {i+1}: "))
 
-nomes.append(nome)
-idades.append(idade)
-alturas.append(altura)
+    nomes.append(nome)
+    idades.append(idade)
+    alturas.append(altura)
 
 print("")
 
