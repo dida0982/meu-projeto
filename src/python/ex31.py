@@ -12,4 +12,4 @@ for i in range(3):
     heights.append(height)
 
 for i in range(3):
-    print(f"Names: {name}, Age: {age}, Height: {height}")
+    print(f"People {i+1}: Name: {names[i]}, Age: {ages[i]}, Height: {heights[i]}")
